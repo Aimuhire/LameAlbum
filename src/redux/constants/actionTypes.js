@@ -1,1 +1,2 @@
-export const ALBUM_CHANGE = 'ALBUM_CHANGE';
+export const ALBUM_CHANGE = "ALBUM_CHANGE";
+export const LOADER_STATE_CHANGE = "LOADER_STATE_CHANGE";
