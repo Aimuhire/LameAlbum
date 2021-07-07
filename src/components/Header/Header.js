@@ -6,7 +6,6 @@ const Container = styled.div`
   justify-content: center;
   font-weight: 400;
   margin: 50px 0;
-
   color: whitesmoke;
 
   .brand-name {
@@ -26,7 +25,7 @@ export class Header extends Component {
     return (
       <React.Fragment>
         <Container>
-          <div className="brand-name">LameGram</div>
+          <div className="brand-name">😒 LameGram</div>
           <div className="product">[ Album ]</div>
         </Container>
       </React.Fragment>

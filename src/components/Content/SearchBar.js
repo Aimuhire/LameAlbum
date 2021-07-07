@@ -58,16 +58,19 @@ export class SearchBar extends Component {
       this.fetchAlbumItems(this.state.albumID);
     }
   }
+
   handleIDChange({ target }) {
     if (target.value < 1) {
       this.setState({ albumID: "" });
     } else {
-      this.setState({ albumID: target.value });
+      this.setState({ albumID: Number(target.value) });
     }
   }
+
   fetchAlbumItems() {
     this.props.onChangeAlbum(this.state.albumID);
   }
+
   render() {
     return (
       <Container>
