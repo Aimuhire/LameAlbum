@@ -37,9 +37,6 @@ const Container = styled.div`
   span {
     margin: 4px;
   }
-  div {
-    margin: 3px 0;
-  }
 `;
 
 export class Footer extends Component {
@@ -66,7 +63,7 @@ export class Footer extends Component {
           {this.state.thisYear}
         </div>
         <div>
-          Originally designed for a challenge by {" "}
+          Originally designed for a challenge by
           <a
             href="https://twitter.com/nellysugu"
             rel="noreferrer"
