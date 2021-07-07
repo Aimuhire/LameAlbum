@@ -15,6 +15,10 @@ const Container = styled.div`
     color: white;
     margin: 30px 0;
   }
+  /* Responsive Design */
+  @media only screen and (max-width: 768px) {
+    padding: 0;
+  }
 `;
 const AlbumWrapper = styled.div`
   display: flex;
@@ -52,7 +56,7 @@ export class Album extends Component {
               )}
             </>
           ) : (
-            <div className="no-photos">Please choose album above</div>
+            <div className="no-photos">Please choose an album above</div>
           )}
         </>
       </Container>
