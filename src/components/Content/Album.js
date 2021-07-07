@@ -18,6 +18,9 @@ const Container = styled.div`
   /* Responsive Design */
   @media only screen and (max-width: 768px) {
     padding: 0;
+    .no-photos {
+      padding: 0 10%;
+    }
   }
 `;
 const AlbumWrapper = styled.div`
